@@ -19,7 +19,7 @@ public class CourseController {
     }
 
     @GetMapping("/id")
-    public ResponseEntity<?> course(@RequestParam(value = "id", defaultValue = "1") int id){
+    public ResponseEntity<?> course(@RequestParam int id){
         return ResponseEntity.ok(courseService.course(id));
     }
 
