@@ -2,6 +2,12 @@ server:
   port: 1011
 
 spring:
+  cloud:
+    config:
+      import-check:
+        enabled: false
+  config:
+    import=optional:configserver:
   application:
     name: course-service
   datasource:
@@ -19,3 +25,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+eureka:
+  client:
+    serviceUrl:
+      defaulltZone: http://localhost:8083/eureka

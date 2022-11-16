@@ -7,14 +7,15 @@ spring:
     gateway:
       routes:
       - id: studentModule
-        uri: http://localhost:1010/
+        uri: lb://student-service
         predicates:
         - Path=/student/**
       - id: courseModule
-        uri: http://localhost:1011/
+        uri: lb://course-service
         predicates:
         - Path=/course/**
-#        filters:
-#        - name: Requestsize
-#          args:
-#            Maxsize: 5000000
+eureka:
+  client:
+    serviceUrl:
+      defaulltZone: http://localhost:8083/eureka
+
