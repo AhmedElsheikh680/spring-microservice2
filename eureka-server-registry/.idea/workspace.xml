@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0fcf7e-d6a3-4303-b6ad-8df0f020f754" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../course/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-microservice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/code/CourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/code/CourseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/code/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/code/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-microservice/src/main/java/com/code/SpringbootMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-microservice/src/main/java/com/code/SpringbootMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-microservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-microservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-microservice/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,8 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "35c215042b4f4111f7615e1825d4bce1"
   }
 }]]></component>
   <component name="RunManager">
@@ -62,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668520435850</updated>
       <workItem from="1668520438015" duration="4647000" />
+      <workItem from="1668593222876" duration="4591000" />
     </task>
     <servers />
   </component>

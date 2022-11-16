@@ -7,9 +7,9 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
 @SpringBootApplication
-@PropertySources({
-        @PropertySource({"file:D:\\springboot-microservice\\course.properties"})
-})
+//@PropertySources({
+//        @PropertySource({"file:D:\\springboot-microservice\\course.properties"})
+//})
 public class CourseApplication {
 
     public static void main(String[] args) {
